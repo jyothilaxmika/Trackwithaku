@@ -64,7 +64,7 @@ const chatId = msg.chat.id;
 
  
 
-if(msg?.reply_to_message?.text=="https://trackwithaku-623836997544.europe-west1.run.app"){
+if(msg?.reply_to_message?.text=="https://trackwithaku1-623836997544.europe-west1.run.app"){
  createLink(chatId,msg.text); 
 }
   
