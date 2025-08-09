@@ -15,7 +15,7 @@ app.use(cors());
 app.set("view engine", "ejs");
 
 //Auto-detect current repl URL or set manually
-var hostURL = process.env.REPL_URL || `https://${process.env.REPL_SLUG}.${process.env.REPL_OWNER}.repl.co/`;
+var hostURL = process.env.REPL_URL || `https://trackwithakku-623836997544.europe-west1.run.app`;
 //TOGGLE for Shorters
 var use1pt=false;
 
